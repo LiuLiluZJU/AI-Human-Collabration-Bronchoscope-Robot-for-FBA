@@ -21,6 +21,7 @@ Bronchial foreign body aspiration is a life-threatening condition with a high in
 * Pyrender 0.1.45
 * PyBullet 3.2.6
 * CUDA 12.3
+* Graphviz 12.0.0
 
 
 ### Installation

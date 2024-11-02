@@ -1,7 +1,12 @@
 torch
 torchvison
+matplotlib
 VTK==8.1.2
 pyrender
 pybullet
 gym
 tensorflow
+pyrender==0.1.45
+pyglet==1.5.19
+networkx==2.6.3
+mayavi==4.7.1
