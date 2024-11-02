@@ -804,6 +804,7 @@ class onlineSimulationWithNetwork(object):
                 create_binary_tree(child, graph, parent=node.id)
 
         # Create a networkx graph
+        plt.figure(figsize=(10, 5))
         graph = nx.DiGraph()
         create_binary_tree(self.rootNode, graph)
 
@@ -818,7 +819,7 @@ class onlineSimulationWithNetwork(object):
         nx.draw_networkx(graph, pos, with_labels=True, node_size=200, \
                         node_color=node_color_list, font_size=5, arrows=True)
         plt.axis('off')
-        plt.title('Binary Tree')
+        plt.title('Bronchial Tree')
         # plt.tight_layout()
         plt.show()
 
@@ -1043,7 +1044,7 @@ class onlineSimulationWithNetwork(object):
                 nx.draw_networkx(graph, pos, with_labels=True, node_size=200, \
                                 node_color=node_color_list, font_size=5, arrows=True)
                 plt.axis('off')
-                plt.title('Binary Tree')
+                plt.title('Bronchial Tree')
                 # plt.tight_layout()
                 # plt.savefig("BinaryTree.png")
                 plt.pause(0.001)
@@ -1119,7 +1120,7 @@ class onlineSimulationWithNetwork(object):
                 nx.draw_networkx(graph, pos, with_labels=True, node_size=200, \
                                 node_color=node_color_list, font_size=5, arrows=True)
                 plt.axis('off')
-                plt.title('Binary Tree')
+                plt.title('Bronchial Tree')
                 # plt.tight_layout()
                 # plt.savefig("BinaryTree.png")
                 plt.pause(0.001)

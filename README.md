@@ -33,8 +33,9 @@ pip install -r requirements.txt
 
 ### Train
 ```
-> python train.py  --dataset-dir YOUR_AIRWAY_AND_CENTERLINE_DIR
+> python train.py  --dataset-dir YOUR_AIRWAY_DIR
 ```
+The training dataset can be got by emailing us with reasonable requrest.
 
 ### Test
 The testing environment of Patient 3 and network model trained on Patient 1 and 2 can be downloaded in [Google Drive](https://drive.google.com/drive/folders/1g0YX9uB9_yNnwHU1synubgy7KFsg4syx?usp=drive_link). Save /Airways, /checkpoints_policy and /checkpoints_LD folders in root direction of the repo, then type the following code for evaulating the Sampled method:
@@ -42,4 +43,18 @@ The testing environment of Patient 3 and network model trained on Patient 1 and 
 ```
 > python test.py
 ```
-The testing will begin after close the bronchial tree figure shown by NetworkX and Matplotlib.
+The testing will start after close the bronchial tree figure shown by NetworkX and Matplotlib.
+
+<img src="figs/bronchial_tree.png#pic_left" alt="a" style="zoom:40%;" /><img src="figs/test.png#pic_left" alt="b" style="zoom:24%;" />
+
+## Results
+
+### Simulation
+
+<img src="figs/simulation.png#pic_left" alt="avatar" style="zoom:100%;" /> <img src="figs/simulation2.png#pic_left" alt="avatar" style="zoom:100%;" />
+
+### In-vitro
+<img src="figs/invitro.png#pic_left" alt="avatar" style="zoom:100%;" />
+
+### In-vivo
+<img src="figs/invivo.png#pic_left" alt="avatar" style="zoom:100%;" />
