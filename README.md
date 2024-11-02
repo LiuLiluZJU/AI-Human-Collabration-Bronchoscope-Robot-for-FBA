@@ -45,13 +45,13 @@ The testing environment of Patient 3 and network model trained on Patient 1 and 
 ```
 The testing will start after close the bronchial tree figure shown by NetworkX and Matplotlib.
 
-<img src="figs/bronchial_tree.png" alt="a" style="zoom:40%;" /><img src="figs/test.png" alt="b" style="zoom:24%;" />
+<img src="figs/comb.png#pic_left" alt="avatar" style="zoom:40%;" />
 
 ## Results
 
 ### Simulation
 
-<img src="figs/simulation.png#pic_left" alt="avatar" style="zoom:100%;" /> <img src="figs/simulation2.png#pic_left" alt="avatar" style="zoom:100%;" />
+<img src="figs/simulation.png#pic_left" alt="avatar" style="zoom:100%;" />
 
 ### In-vitro
 <img src="figs/invitro.png#pic_left" alt="avatar" style="zoom:100%;" />
