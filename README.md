@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 
 ### Test
-The testing environment of Patient 3 and network model trained on Patient 1 and 2 can be downloaded in [Google Drive](https://drive.google.com/drive/folders/1g0YX9uB9_yNnwHU1synubgy7KFsg4syx?usp=drive_link). Save /Airways, /checkpoints_policy and /checkpoints_LD folders in root direction of the repo, then type the following code for evaulating:
+The testing environment of Patient 3 and network model trained on Patient 1 and 2 can be downloaded in [Google Drive](https://drive.google.com/drive/folders/1g0YX9uB9_yNnwHU1synubgy7KFsg4syx?usp=drive_link). Save /Airways, /checkpoints_policy and /checkpoints_LD folders in root direction of the repo, then type the following code for evaulating the Sampled method:
 
 ```
 > python test.py
