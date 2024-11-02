@@ -96,14 +96,13 @@ class onlineSimulationWithNetwork(object):
 
         # Load models
         name = centerline_name.split(" ")[0]
-        self.root_dir = "H:/high-level-imitation-learning"
-        self.bronchus_model_dir = os.path.join(self.root_dir, "Airways", "AirwayHollow_{}_simUV.obj".format(name))
-        # self.bronchus_model_dir = os.path.join(self.root_dir, "Airways", "AirwayHollow_{}.obj".format(name))
-        self.airway_model_dir = os.path.join(self.root_dir, "Airways", "AirwayModel_Peach_{}.vtk".format(name))
-        network_model_dir = os.path.join(self.root_dir, "Airways", "Network_{}.obj".format(name))
+        self.bronchus_model_dir = os.path.join("Airways", "AirwayHollow_{}_simUV.obj".format(name))
+        # self.bronchus_model_dir = os.path.join("Airways", "AirwayHollow_{}.obj".format(name))
+        self.airway_model_dir = os.path.join("Airways", "AirwayModel_Peach_{}.vtk".format(name))
+        network_model_dir = os.path.join("Airways", "Network_{}.obj".format(name))
         self.centerline_name = centerline_name
         centerline_model_name = centerline_name.lstrip(name + " ")
-        self.centerline_model_dir = os.path.join(self.root_dir, "Airways", "centerline_models_{}".format(name), centerline_model_name + ".obj")
+        self.centerline_model_dir = os.path.join("Airways", "centerline_models_{}".format(name), centerline_model_name + ".obj")
 
         p.connect(p.DIRECT)
         p.setAdditionalSearchPath(pybullet_data.getDataPath())
@@ -663,7 +662,7 @@ class onlineSimulationWithNetwork(object):
     def run(self, net, target_detection_net, epoch=None, net_transfer=None, transform_func=None, transform_func_transfer=None, training=True):
 
         if training:
-            saving_root = os.path.join(self.root_dir, "train_set", "centerlines_with_dagger", self.centerline_name + "-dagger" + str(epoch))
+            saving_root = os.path.join("train_set", "centerlines_with_dagger", self.centerline_name + "-dagger" + str(epoch))
             if not os.path.exists(saving_root):
                 os.mkdir(saving_root)
             actions_saving_dir = os.path.join(saving_root, "actions.txt")
