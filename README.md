@@ -2,8 +2,8 @@
 
 The official PyTorch implementation of our paper "AI Search, Physician Removal: A Low-cost 5G Bronchoscopy Robot Enables Collaboration in Foreign Body Aspiration"
 
-Video:
-[![AI Search, Physician Removal: A Low-cost 5G Bronchoscopy Robot Enables Collaboration in FBA](https://img.youtube.com/vi/cimMRYJC7xk/maxresdefault.jpg)](https://youtu.be/cimMRYJC7xk?si=RBZLCcQCRZAKQPJ4 "AI Search, Physician Removal: A Low-cost 5G Bronchoscopy Robot Enables Collaboration in FBA")
+<!--Video:
+[![AI Search, Physician Removal: A Low-cost 5G Bronchoscopy Robot Enables Collaboration in FBA](https://img.youtube.com/vi/cimMRYJC7xk/maxresdefault.jpg)](https://youtu.be/cimMRYJC7xk?si=RBZLCcQCRZAKQPJ4 "AI Search, Physician Removal: A Low-cost 5G Bronchoscopy Robot Enables Collaboration in FBA")-->
 
 ## Introduction
 
